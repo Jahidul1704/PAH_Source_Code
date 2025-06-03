@@ -6193,7 +6193,7 @@
       ! Print to screen
       !=================================================================
       IF ( am_I_Root ) THEN
-         WRITE( 6, '(,a)' ) 'PROD & LOSS DIAGNOSTIC MENU'
+         WRITE( 6, '(/,a)' ) 'PROD & LOSS DIAGNOSTIC MENU'
          WRITE( 6, '(  a)' ) '---------------------------'      
          WRITE( 6, 100 ) 'Turn on prod & loss diag?   : ', DO_SAVE_PL
          WRITE( 6, 110 ) '# of levels for P/L diag    : ', ND65
